@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="http://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-black text-white">
     <!-- Header -->
     <header class="bg-black text-white">
         <div class="max-w-7xl mx-auto px-6 md:px-12 lg:px-8 py-4 flex justify-between items-center">
@@ -69,19 +70,19 @@
     <!-- Cartes de services -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
       <!-- Carte 1 -->
-      <div class="bg-gray-900 p-6 rounded-lg hover:shadow-lg transition">
+      <div class="bg-[#0D0D0D] p-6 rounded-lg hover:shadow-lg transition">
         <h3 class="text-xl font-semibold mb-2">Transferts via JINAA BANK</h3>
         <p class="text-gray-400 text-sm">Effectuez vos transferts bancaires directement via JINAA BANK de manière sécurisée.</p>
       </div>
 
       <!-- Carte 2 -->
-      <div class="bg-gray-900 p-6 rounded-lg hover:shadow-lg transition">
+      <div class="bg-[#0D0D0D] p-6 rounded-lg hover:shadow-lg transition">
         <h3 class="text-xl font-semibold mb-2">Transferts avec MTN MONEY</h3>
         <p class="text-gray-400 text-sm">Recevez rapidement de l’argent sur vos portefeuilles mobiles MTN.</p>
       </div>
 
       <!-- Carte 3 -->
-      <div class="bg-gray-900 p-6 rounded-lg hover:shadow-lg transition">
+      <div class="bg-[#0D0D0D] p-6 rounded-lg hover:shadow-lg transition">
         <h3 class="text-xl font-semibold mb-2">Options de MOBILE PAYMENT</h3>
         <p class="text-gray-400 text-sm">Plusieurs options de paiements mobiles disponibles pour plus de flexibilité.</p>
       </div>
@@ -95,9 +96,115 @@
     </div>
   </div>
 </section>
+<section>
+  <div class="container mx-auto px-4 py-12 max-w-4xl">
+    <!-- Titre -->
+    <h1 class="text-3xl font-bold text-center mb-2">FAQS</h1>
+    <p class="text-center mb-12">Découvrez les réponses aux questions fréquemment posées sur nos services de transfert d'argent.</p>
+    
+    <!-- Liste des FAQs -->
+    <div class="space-y-6">
+        <!-- Question 1 -->
+        <div class="bg-[#191919] rounded-lg shadow-md overflow-hidden">
+            <button class="flex justify-between items-center w-full px-6 py-8 text-left font-medium focus:outline-none">
+                <span>Comment effectuer un transfert?</span>
+                <svg class="w-5 h-5 text-gray-500 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+            <div class="px-6 pb-4 hidden">
+                <p>Pour effectuer un transfert, choisissez votre méthode de paiement, entrez le montant et les informations du destinataire. Une fois validé, votre transfert sera traité rapidement. Profitez de notre réduction de 10% sur chaque transaction.</p>
+            </div>
+        </div>
+        
+        <!-- Question 2 -->
+        <div class="bg-[#191919] rounded-lg shadow-md overflow-hidden">
+            <button class="flex justify-between items-center w-full px-6 py-8 text-left font-medium focus:outline-none">
+                <span>Quels sont les frais?</span>
+                <svg class="w-5 h-5 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+            <div class="px-6 pb-4 hidden">
+                <p>Nos frais de transfert sont compétitifs et transparents. Vous bénéficiez d'une réduction de 10% sur chaque transfert. Consultez notre site pour plus de détails sur les tarifs.</p>
+            </div>
+        </div>
+        
+        <!-- Question 3 -->
+        <div class="bg-[#191919] rounded-lg shadow-md overflow-hidden">
+            <button class="flex justify-between items-center w-full px-6 py-8 text-left font-medium focus:outline-none">
+                <span>Quels moyens de paiement?</span>
+                <svg class="w-5 h-5 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+            <div class="px-6 pb-4 hidden">
+                <p>Nous acceptons plusieurs moyens de paiement, y compris ZIRAAT BANK, AIETEI MONEY et MOBILE PAYMENT. Choisissez celui qui vous convient le mieux pour des transferts rapides et sécurisés. Chaque méthode est conçue pour votre confort.</p>
+            </div>
+        </div>
+        
+        <!-- Question 4 -->
+        <div class="bg-[#191919] rounded-lg shadow-md overflow-hidden">
+            <button class="flex justify-between items-center w-full px-6 py-8 text-left font-medium focus:outline-none">
+                <span>Comment suivre un transfert?</span>
+                <svg class="w-5 h-5 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+            <div class="px-6 pb-4 hidden">
+                <p>Vous pouvez suivre votre transfert en utilisant le numéro de référence fourni lors de la transaction. Connectez-vous à votre compte pour voir l'état de votre transfert. Nous vous tiendrons informé à chaque étape.</p>
+            </div>
+        </div>
+        
+        <!-- Question 5 -->
+        <div class="bg-[#191919] rounded-lg shadow-md overflow-hidden">
+            <button class="flex justify-between items-center w-full px-6 py-8 text-left font-medium focus:outline-none">
+                <span>Y a-t-il des limites?</span>
+                <svg class="w-5 h-5transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+            <div class="px-6 pb-4 hidden">
+                <p>Oui, il existe des limites de montant pour les transferts, qui peuvent varier selon la méthode de paiement choisie. Assurez-vous de vérifier les limites spécifiques avant d'effectuer votre transfert. Nous nous engageons à garantir la sécurité de vos transactions.</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Section Contact -->
+    <div class="mt-16 text-center">
+        <h2 class="text-xl font-semibold mb-4">Vous avez encore des questions?</h2>
+        <p class=" mb-6">N'hésitez pas à nous contacter!</p>
+        <button class="bg-yellow-500 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-lg transition duration-200">
+            Contact
+        </button>
+    </div>
+</div>
+
+
+
+</section>
 
   
    
-  
+<script>
+  // Script pour faire fonctionner l'accordéon FAQ
+  document.querySelectorAll('button').forEach(button => {
+      button.addEventListener('click', () => {
+          const faqItem = button.parentElement;
+          const content = button.nextElementSibling;
+          const icon = button.querySelector('svg');
+          
+          // Basculer la visibilité du contenu
+          content.classList.toggle('hidden');
+          
+          // Rotation de l'icône
+          icon.classList.toggle('transform');
+          icon.classList.toggle('rotate-180');
+          
+          // Changer la couleur de fond si ouvert
+          faqItem.classList.toggle('bg-yellow-600');
+      });
+  });
+</script>
 </body>
 </html>
